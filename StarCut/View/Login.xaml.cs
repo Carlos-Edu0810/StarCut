@@ -33,8 +33,6 @@ namespace StarCut.View
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
-
             bool LoginValido = UserPassordBox.Password == "999" && UserTextBox.Text == "999" ? true : false;
             if (!LoginValido)
             {
@@ -44,12 +42,10 @@ namespace StarCut.View
                 // Reinicia e inicia o temporizador para ocultar a label
                 _timer.Stop(); // Garante que qualquer timer anterior seja parado
                 _timer.Start(); // Inicia o timer
-
             }
-            //txtValid.Text = LoginValido ? "Login relaizado com sucesso!" : "Error: Login invalido!";
         }
 
-        private void HideMessageTimer_Tick(object sender, EventArgs e)
+        private void HideMessageTimer_Tick(object? sender, EventArgs e)
         {
             txtValid.Visibility = Visibility.Collapsed; // Oculta a label
             _timer.Stop(); // Para o timer para que ele não continue disparando
