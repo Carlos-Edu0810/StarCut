@@ -187,8 +187,8 @@
             <TextBlock Text="Bem-vindo ao StarCut!" Style="{StaticResource TitleTextBlockStyle}"/>
             <TextBlock x:Name="txtValid" Text="" FontSize="18" FontStyle="Normal" Foreground="red" Visibility="Collapsed"/>
 
-            <TextBlock Text="Usuário ou Email:" Style="{StaticResource LabelTextBlockStyle}"/>
-            <TextBox x:Name="UserTextBox" Tag="Digite seu usuário ou email" AutomationProperties.Name="UserTextBox"/>
+            <TextBlock Text="Usuário:" Style="{StaticResource LabelTextBlockStyle}"/>
+            <TextBox x:Name="UserTextBox" Tag="Digite seu usuário" AutomationProperties.Name="UserTextBox"/>
 
             <TextBlock Text="Senha:" Style="{StaticResource LabelTextBlockStyle}"/>
             <PasswordBox x:Name="UserPassordBox" Tag="Digite sua senha" AutomationProperties.Name="UserPasswordBox"/>
