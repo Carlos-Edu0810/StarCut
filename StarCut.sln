@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarCut", "StarCut\StarCut.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarCut_Library", "StarCut_Library\StarCut_Library.csproj", "{2F8AE7BA-8B2D-4B08-A7C1-CA4CBD2A2A46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarCut_API", "StarCut_API\StarCut_API.csproj", "{375E7D5A-690D-4BF2-BF8C-3FEC74CFCCD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2F8AE7BA-8B2D-4B08-A7C1-CA4CBD2A2A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F8AE7BA-8B2D-4B08-A7C1-CA4CBD2A2A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F8AE7BA-8B2D-4B08-A7C1-CA4CBD2A2A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{375E7D5A-690D-4BF2-BF8C-3FEC74CFCCD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375E7D5A-690D-4BF2-BF8C-3FEC74CFCCD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375E7D5A-690D-4BF2-BF8C-3FEC74CFCCD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375E7D5A-690D-4BF2-BF8C-3FEC74CFCCD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
