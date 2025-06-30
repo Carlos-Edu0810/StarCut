@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using StarCut_WPF.View;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +20,17 @@ namespace StarCut
         public MainWindow()
         {
             InitializeComponent();
+            MainContentControl.Content = new AgendaView();
+        }
+
+        private void AgendaButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainContentControl.Content = new AgendaView();
+        }
+
+        private void EstabelecimentoButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainContentControl.Content = new EstabelecimentoView();
         }
     }
 }

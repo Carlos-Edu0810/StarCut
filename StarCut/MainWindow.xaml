@@ -56,8 +56,8 @@
             <TextBlock Text="StarCut" Foreground="{StaticResource TextColor}" 
                        FontSize="30" FontWeight="Bold" Margin="10,20,10,30" Padding="10"/>
 
-            <Button Style="{StaticResource MenuButtonStyle}" Content="Agenda"/>
-            <Button Style="{StaticResource MenuButtonStyle}" Content="Estabelecimento"/>
+            <Button Style="{StaticResource MenuButtonStyle}" Content="Agenda" Click="AgendaButton_Click"/>
+            <Button Style="{StaticResource MenuButtonStyle}" Content="Estabelecimento" Click="EstabelecimentoButton_Click" Cursor="Hand"/>
             <Button Style="{StaticResource MenuButtonStyle}" Content="Financeiro"/>
             <Button Style="{StaticResource MenuButtonStyle}" Content="Relatórios"/>
             <Button Style="{StaticResource MenuButtonStyle}" Content="Marketing"/>
@@ -66,7 +66,9 @@
 
         <!-- Área Principal -->
         <Grid Grid.Column="1" Background="White">
+            
             <!-- Conteúdo será exibido aqui -->
+            <ContentControl x:Name="MainContentControl" Grid.Column="1" Background="White"/>
         </Grid>
     </Grid>
 </Window>

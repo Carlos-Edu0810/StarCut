@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Images\account_box.png" />
     <None Remove="Resources\Images\App_Icon.png" />
     <None Remove="Resources\Images\StarCut_Logo.ico" />
     <None Remove="Resources\Images\StarCut_Logo.png" />
@@ -25,6 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\Images\account_box.png" />
     <Resource Include="Resources\Images\App_Icon.png" />
     <Resource Include="Resources\Images\StarCut_Logo.ico" />
     <Resource Include="Resources\Images\StarCut_Logo.png" />
